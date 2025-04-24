@@ -1,0 +1,26 @@
+fetch_content_task:
+  description: >
+    If {link} is a valid blog, fetch and extract the main text content from it.
+    Remove ads, headers, and unrelated elements.
+  expected_output: >
+    The clean, full text of the blog article from {link}.
+  agent: content_fetcher
+
+summarize_blog_task:
+  description: >
+    Summarize the extracted blog content from {link} into clear, easy-to-understand points.
+    Focus on capturing the key ideas and main takeaways.
+  expected_output: >
+    A list of 5-7 concise bullet points summarizing the blog.
+  agent: blog_summarizer
+
+design_suggestion_task:
+  description: >
+    Use the summarized blog content to suggest a suitable color theme and layout idea for an infographic.
+    Ensure the visual suggestions align with the tone and structure of the content.
+  expected_output: >
+    A list that includes:
+    - A recommended color palette (hex codes or color names),
+    - A suggested layout style (e.g., timeline, flowchart, step-by-step),
+    - Optional visual or icon ideas to enhance clarity.
+  agent: design_suggester
