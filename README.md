@@ -1,6 +1,6 @@
 # PicturizeAI Crew
 
-Welcome to the SummarizerCrew Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+Welcome to the PicturizeAI Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
 
 ## Installation
 
@@ -47,7 +47,7 @@ The summarizer-crew Crew is composed of multiple AI agents, each with unique rol
 
 ## Support
 
-For support, questions, or feedback regarding the SummarizerCrew Crew or crewAI.
+For support, questions, or feedback regarding the PicturizeAI Crew or crewAI.
 
 - Visit our [documentation](https://docs.crewai.com)
 - Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
